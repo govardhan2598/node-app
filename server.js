@@ -12,8 +12,8 @@ app.get('/', (req, res) => {
   res.send('<h1 style="color:red;">Hello IdeyaLabs Devops Team</h1> \n');
 });
 
-app.get('/location', (req, res) => {
-  res.send('<h1 style="color:red;">Hyderabad</h1> \n');
+app.get('/Team', (req, res) => {
+  res.send('<h1 style="color:red;">*Govardhan A \n *Aravind D \n *Rajeshwarayya S \n *Gopi T \n *Yaswanth Y \n * Sai Teja A </h1> \n');
 });
 
 app.listen(PORT, HOST);
