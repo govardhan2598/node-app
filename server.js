@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/Team', (req, res) => {
-  res.send('<h1 style="color:blue;">*Govardhan A \n *Aravind D \n *Rajeshwarayya S \n *Gopi T \n *Yaswanth Y \n * Sai Teja A </h1> \n');
+  res.send('<h1 style="color:blue;">Govardhan A \n Rajeshwarayya S \n Aravind D \n Gopi T \n Yaswanth Y \n Sai Teja A </h1> \n');
 });
 
 app.listen(PORT, HOST);
